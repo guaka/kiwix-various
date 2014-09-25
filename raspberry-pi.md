@@ -8,14 +8,14 @@ This is the documentation about Kiwix-plug for the Raspberry Pi.
 Kiwix-plug is a solution allowing everyone to set up an open Wifi
 kiosk to deliver contents available in the ZIM format. The solution
 is adapated for the Raspberry Pi, use the Kiwix-serve technology and
-many open source softwares. This documentation explains how to setup
+many open source softwares. This documentation explains how to set up
 Kiwix-plug.
 
 This port for Raspberry Pi is still EXPERIMENTAL: it has been tested
 only by the developer, so there could be bugs or issues on other
 configurations. Please report them on http://reportabug.kiwix.org.
 
-== Overview and installation choices ==
+## Overview and installation choices
 
 The installation comes in 3 steps:
 1. prepare the ZIM files
@@ -36,7 +36,7 @@ In the second case, the remote computer is called the "master", must
 be connected to the Internet, and the Raspberry Pi must be connected
 to this computer through the local network.
 
-== Requirements ==
+## Requirements
 * A Raspberry Pi (http://www.raspberry.org)
 * A Wi-Fi USB dongle or any Wi-Fi device, with a Linux driver compatible
   with hostapd: currently hostap, wired, madwifi, test, none, nl80211, bsd
@@ -47,9 +47,9 @@ to this computer through the local network.
   (http://openzim.org/ZIM_File_Archive)
 * A wireline LAN allowing access to Internet with a free RJ45 port
 * A master computer with a UNIX and a root access, GNU/Linux is perfect.
-  This computer needs a SD card port to setup kiwix-serve in the Raspbian
+  This computer needs a SD card port to set up kiwix-serve in the Raspbian
   system, and possibly a free USB port to put the flash drive to
-  setup. You need free space on this system: at least 3x the size
+  set up. You need free space on this system: at least 3x the size
   of the ZIM files you want to copy on the storage device.
 * Time: preparing the "master" (mainly downloading the ZIM files and
   computing the full-text search engine indexes) can take hours,
@@ -69,7 +69,7 @@ The setup process has 3 steps, based on 3 scripts:
 3 Run "setup_usbkey.sh" to copy everything necessary on your
   storage device
 
-== Retrieving the code ==
+## Retrieving the code
 
 The code to setup the Raspberry Pi and the flash drive is available on
 Internet here: https://sourceforge.net/p/kiwix/other/
@@ -84,7 +84,7 @@ git clone git://git.code.sf.net/p/kiwix/other kiwix-other
 
 You will get a "kiwix-other/plug" directory. Go inside.
 
-== Setup the master ==
+## Set up the master
 
 This will do all preparatory work before setting up the Raspberry Pi and
 the flash drive.
@@ -99,7 +99,7 @@ files. Be patient...
 Run "./setup_master.sh clean" to clean everything (but not the ZIM
 files) was downloaded before re-preparing the master.
 
-== Setup the Raspberry Pi ==
+## Set up the Raspberry Pi
 
 We will now do a minimal configuration of the Raspberry Pi system card.
 If your master computer is the Raspberry Pi itself, just execute the
@@ -127,7 +127,7 @@ WARNING: before activating Kiwix on your Raspberry Pi, you have to configure
 Raspbian to a graphical session (even if the display is not connected) since
 the graphical environnement is managing the automatic mount of USB devices.
 
-== Setup the flash storage ==
+## Set up the flash storage
 
 You need to put a free USB key to your computer and run the script
 "./setup_usbkey.sh". This will copy many things to the USB key, so
@@ -137,7 +137,7 @@ If you want to customize the name of the Wi-Fi connection ("KIWIX_PLUG"
 by default), open the file "USBKEY/system/kiwix-plug" and change the
 name in the first lines.
 
-== Conclusion ==
+## Conclusion
 
 You should have now a perfectly working kiwix-plug. Remove the RJ45
 cable from the Raspberry Pi, put the system SD card and the Wi-Fi device
@@ -151,7 +151,7 @@ HTTPS website). You should land to the Kiwix-plug Welcome page.
 
 Enjoy! To any problem: http://reportabug.kiwix.org
 
-== Bugs/Todo ==
+## Bugs/Todo
 * Managing the auto-mount ourselves instead of relying on the mount by LXDE
 * Mount the USB key with fmask=0000,dmask=0022 instead of copying the config
   files in /tmp
@@ -160,7 +160,7 @@ Enjoy! To any problem: http://reportabug.kiwix.org
   only one USB plug, which is likely used by a Wi-Fi USB device
 * Add some mechanism to properly stop kiwix-serve
 
-== Technical considerations for the port on Raspberry Pi ==
+## Technical considerations for the port on Raspberry Pi
 
 * Mount:
   The USB key could not be mounted during the boot, when /etc/init.d/kiwix-plug
