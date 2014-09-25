@@ -44,7 +44,7 @@ to this computer through the local network.
   (http://openzim.org/ZIM_File_Archive)
 * A wireline LAN allowing access to Internet with a free RJ45 port
 * A master computer with a UNIX and a root access, GNU/Linux is perfect.
-  This computer needs a SD card port to set up kiwix-serve in the Raspbian
+  This computer needs an SD card port to set up kiwix-serve in the Raspbian
   system, and possibly a free USB port to put the flash drive to
   set up. You need free space on this system: at least 3x the size
   of the ZIM files you want to copy on the storage device.
@@ -55,15 +55,15 @@ to this computer through the local network.
 
 The setup process has 3 steps, based on 3 scripts:
 
-0 Get the code to do all the stuff
+0. Get the code to do all the stuff
 
-1 Run "setup_master.sh" to prepare everything on your computer. It
+1. Run "setup_master.sh" to prepare everything on your computer. It
   especialy downloads the binaries to install on the plug, compute
   indexes, etc.
 
-2 Run "setup_raspberrypi.sh" to configure your Raspberry Pi.
+2. Run "setup_raspberrypi.sh" to configure your Raspberry Pi.
 
-3 Run "setup_usbkey.sh" to copy everything necessary on your
+3. Run "setup_usbkey.sh" to copy everything necessary on your
   storage device
 
 ## Retrieving the code
