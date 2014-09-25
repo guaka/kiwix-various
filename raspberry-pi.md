@@ -1,8 +1,5 @@
-*********************************************************************
-*                                                                   *
-*                      KIWIX-PLUG                                   *
-*                                                                   *
-*********************************************************************
+# Kiwix-plug on Raspberry Pi
+
 
 This is the documentation about Kiwix-plug for the Raspberry Pi.
 Kiwix-plug is a solution allowing everyone to set up an open Wifi
