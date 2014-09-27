@@ -8,12 +8,12 @@ output: afripedia-madagascar.html
 --
 ## Formation Afripédia Madagascar
 
-Kasper Souren <kasper@guaka.org> [@guaka](https://twitters.com/guaka) Pays Bas
+**Kasper Souren** <kasper@guaka.org> [@guaka](https://twitter.com/guaka) <br> Pays Bas 
 
-Georges Fodouop <georges_fodouop@yahoo.fr> Cameroun
+**Georges Fodouop** <georges_fodouop@yahoo.fr><br> Cameroun
 
 
-* lieu : campus numérique francophone de l'Université Antananarivo, Madagascar
+* lieu : Campus Numérique Francophone de l'Université Antananarivo, Madagascar
 * 16 participants de Madagascar, Mozambique, Comores et Ile Maurice
 
 
@@ -26,11 +26,12 @@ LOGO AUF - LOGO Orange
 ## Les objectifs
 
 - Connaitre les principes et le fonctionnement de Wikipédia
-- Savoir écrire un article, uploader une image
+- Savoir **écrire un article**, **uploader une image**
 - Tout le monde a écrit au moins 1 article
 - Savoir utiliser Wikipédia hors ligne par Kiwix
 - Techniciens savent installer Kiwix sur réseau local
 - Pouvoir tenir une formation "de base" à Wikipédia
+- Créer des contactes pour s'entraider
 
 
 --
@@ -44,6 +45,7 @@ LOGO AUF - LOGO Orange
 * Créé par des miliers de personnes de partout
 * Une ressource gigantesque de savoir
 * Savoir : Liberté, développement humain et économique
+* Chaque minute amelioré, nouveaux articles
 
 -- 
 
@@ -84,9 +86,11 @@ LOGO AUF - LOGO Orange
 
 Droit :
 * Utilisation pour chaque but
-* Copier
-* Modification est permit
+* Copier et modifier sont permit
 * Pour les logiciels : Accès aux sources
+
+Attention :
+* Jamais copier des sources non-libres
 
 --
 
