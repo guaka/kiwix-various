@@ -51,7 +51,7 @@ LOGO AUF - LOGO Orange
 
 ## Comment fonctionne Wikipédia ?
 
-* *Tout* le monde peut modifier *[chaque](https://fr.wikipedia.org/wik/Obama)* article
+* *Tout* le monde peut modifier *[presque](https://fr.wikipedia.org/wik/Obama)* chaque article
 * [Histoire](https://fr.wikipedia.org/w/index.php?title=Obama&action=history) de modifications de chaque article
 * Pages de [discussion](https://fr.wikipedia.org/wiki/Discussion:Obama)
 * Presque 100% transparance
@@ -119,6 +119,16 @@ Attention :
 Pas de la Fondation Wikimedia <br /> Hitchwiki, Wikitravel, Wikia.com
 
 --
+
+## Wikimini
+
+* [fr.wikimini.org](http://fr.wikimini.org/)
+* pour les enfants
+* pas de Wikimedia Foudation
+
+
+
+-- 
 
 ## Votre compte Wikipédia
 
