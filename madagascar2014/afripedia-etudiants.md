@@ -3,7 +3,7 @@ author:
   name: Afripedia
   twitter: guaka
   url: http://kasper.re
-output: afripedia-etudiants.html
+output: afripedia.html
 
 --
 ## Afripédia Madagascar
@@ -15,7 +15,7 @@ output: afripedia-etudiants.html
  wikipedia a pour slogan : "Le projet d'encyclopedie librement distribuable que chacun peut améliorer"
  wikipedia est un mot valise conçu à partir de "wiki" un système de gestion de contenu de site web.
  pedia vient du mot "encyclopedie",présent de nombreuses langues.
-*Le proje se veut universel, en traitant tous les domaines de la connaissance, comme la culture populaire, les us et coutumes, etc ...
+*Le projet se veut universel, en traitant tous les domaines de la connaissance, comme la culture populaire, les us et coutumes, etc ...
 *Wikipedia est disponible sous licence libre.
 
 
@@ -25,6 +25,9 @@ output: afripedia-etudiants.html
 
 L'objectif du projet afripedia c'est d'importer wikipedia en Afrique avec le contexte africain, de sensibiliser aussi les africains à contribuer dans wikipedia.
 Le projet est financé par AUF et Orange.
+
+
+-- 
 
 ## Le Kiwix alors c'est quoi?
 
@@ -39,14 +42,6 @@ Création de compte sur wikipedia
 Modification d'un contenu
 
 Quelques overview sur les autres wiki dans wikipedia
-
-
-
-
-
-
-
-
 
 --
 
